@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 		},
 		//tags="not @Skip",  // using this tag we can skip scenarios with tags mention in feature file/ other way is from maven termical & from Before hook
 	    	monochrome = true		
-		)
+		)// Sample code
 
 public class ParallelRun extends AbstractTestNGCucumberTests{
 	
