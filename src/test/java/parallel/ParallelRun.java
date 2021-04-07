@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = {"src/test/resources/parallel/ContactUs.feature"}, // /LoginPage.feature also features files are under parallel package
+		features = {"src/test/resources/parallel/LoginPage.feature"}, // /LoginPage.feature also features files are under parallel package
 		glue = {"parallel"}, // both stpdef and hooks are in same "parallel" package
 		plugin = {"pretty",
 				//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
