@@ -12,7 +12,7 @@ Scenario: Forgot Password link
 Given user is on login page
 Then forgot your password link should be displayed
 
-@Smoke #@Skip_Scenario
+@Smoke 
 Scenario: Login with correct credentials
 Given user is on login page
 When user enters username "dec2020secondbatch@gmail.com"
